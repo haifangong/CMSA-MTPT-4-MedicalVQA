@@ -5,6 +5,19 @@ This repository is the official implementation of `CMSA-MTPT` for the visual que
 This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa) and @Aizo-ai's [work](https://github.com/aioz-ai/MICCAI19-MedVQA). We sincerely thank for their sharing of the codes.
 
 
+### Citation
+
+Please cite these papers in your publications if it helps your research
+
+```
+@inproceedings{gongchen2020cross,
+  author={Haifan Gong, Guanqi Chen, Sishuo Liu, Yizhou Yu, and Guanbin Li},
+  title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
+  booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
+  year={2021}
+}
+```
+
 ### Prerequisites
 
 Please install dependence package by run following command:
@@ -36,7 +49,6 @@ The training scores will be printed every epoch.
 In this repo, we include the pre-trained weight of MAML and CDAE which are used for initializing the feature extraction modules.
 
 
-
 We also provide the pretrained models reported as the best single model in the paper.
 
 For `SAN_MEVF` pretrained model. Please download the [link](https://vision.aioz.io/f/fdc6572bc26f4dd684f4/?dl=1) and move to `saved_models/SAN_MEVF/`. The trained `SAN_MEVF` model can be tested in VQA-RAD test set via:
@@ -48,19 +60,6 @@ For `BAN_MEVF` pretrained model. Please download the [link](https://vision.aioz.
 $ python3 test.py --model BAN --use_RAD --RAD_dir data_RAD --maml --autoencoder --input saved_models/BAN_MEVF --epoch 19 --output results/BAN_MEVF
 ```
 The result json file can be found in the directory `results/`.
-
-### Citation
-
-Please cite these papers in your publications if it helps your research
-
-```
-@inproceedings{gongchen2020cross,
-  author={Haifan Gong, Guanqi Chen, Sishuo Liu, Yizhou Yu, and Guanbin Li},
-  title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
-  booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
-  year={2021}
-}
-```
 
 ### License
 MIT License
