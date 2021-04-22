@@ -2,7 +2,7 @@
 
 This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-4-23, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://arxiv.org/abs/xxxx.xxxx).
 
-The main contributer of this code is Guanqi Chen[link](https://github.com/chenguanqi). This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa) and @Aizo-ai's [work](https://github.com/aioz-ai/MICCAI19-MedVQA). We sincerely thank for their sharing of the codes.
+The main contributer of this code is Guanqi Chen [link](https://github.com/chenguanqi). This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa) and @Aizo-ai's [work](https://github.com/aioz-ai/MICCAI19-MedVQA). We sincerely thank for their sharing of the codes.
 
 
 ### Citation
@@ -46,4 +46,5 @@ The multi-task pretrained models and the models for evaluation can be downloaded
 MIT License
 
 ### More information
+If you have any problem, no hesitate contact us at haifangong@outlook.com
 HCP Lab Homepage: https://hcp.tioyotech.com/
