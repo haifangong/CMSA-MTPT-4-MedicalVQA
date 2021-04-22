@@ -19,11 +19,9 @@ Please cite these papers in your publications if it helps your research
 ```
 
 ### Prerequisites
-
-Please install dependence package by run following command:
-```
-pip install -r requirements.txt
-```
+torch                       1.0.1
+torchvision                 0.4.0a0
+numpy                       1.19.1
 
 ### Preprocessing
 
