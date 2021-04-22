@@ -1,10 +1,9 @@
-# Mixture of Enhanced Visual Features (MEVF)
+# Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering
 
-This repository is the implementation of `MEVF` for the visual question answering task in medical domain. Our model achieved **43.9** for open-ended and **75.1** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). For the detail, please refer to [link](https://arxiv.org/abs/1909.11867).
+This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-4-23, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://arxiv.org/abs/xxxx.xxxx).
 
-This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa). We sincerely thank for their sharing of the codes.
+This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa) and @Aizo-ai's [work](https://github.com/aioz-ai/MICCAI19-MedVQA). We sincerely thank for their sharing of the codes.
 
-![Overview of bilinear attention networks](misc/Medical_VQA_Framework.png)
 
 ### Prerequisites
 
@@ -36,9 +35,7 @@ The training scores will be printed every epoch.
 ### Pretrained models and Testing
 In this repo, we include the pre-trained weight of MAML and CDAE which are used for initializing the feature extraction modules.
 
-The **MAML** model `data_RAD/pretrained_maml.weights` is trained by using official source code [link](https://github.com/cbfinn/maml).
 
-The **CDAE** model `data_RAD/pretrained_ae.pth` is trained by code provided in `train_cdae.py`. For reproducing the pretrained model, please check the instruction provided in that file.
 
 We also provide the pretrained models reported as the best single model in the paper.
 
@@ -58,16 +55,15 @@ Please cite these papers in your publications if it helps your research
 
 ```
 @inproceedings{gongchen2020cross,
-  author={Haifan Gong, Guanqi Chen, },
-  title={Overcoming Data Limitation in Medical Visual Question Answering},
-  booktitle = {MICCAI},
-  year={2019}
+  author={Haifan Gong, Guanqi Chen, Sishuo Liu, Yizhou Yu, and Guanbin Li},
+  title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
+  booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
+  year={2021}
 }
 ```
 
 ### License
-
 MIT License
 
 ### More information
-AIOZ AI Homepage: https://ai.aioz.io
+HCP Lab Homepage: https://hcp.tioyotech.com/
