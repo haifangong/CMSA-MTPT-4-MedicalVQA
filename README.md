@@ -1,6 +1,6 @@
-# Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering
+# Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering [paper](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent)
 
-This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-4-23, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://arxiv.org/abs/xxxx.xxxx).
+This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-4-23, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent).
 
 The main contributer of this code is Guanqi Chen [link](https://github.com/chenguanqi). This repository is based on and inspired by @Jin-Hwa Kim's [work](https://github.com/jnhwkim/ban-vqa) and @Aizo-ai's [work](https://github.com/aioz-ai/MICCAI19-MedVQA). We sincerely thank for their sharing of the codes.
 
