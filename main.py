@@ -27,8 +27,8 @@ def parse_args():
     # Utilities
     parser.add_argument('--seed', type=int, default=1204,
                         help='random seed')
-    parser.add_argument('--epochs', type=int, default=70,
-                        help='the number of epoches') # 20
+    parser.add_argument('--epochs', type=int, default=60,
+                        help='the number of epoches')
     parser.add_argument('--lr', default=0.005, type=float, metavar='lr',
                         help='initial learning rate')
 
@@ -203,6 +203,5 @@ if __name__ == '__main__':
         epoch = model_data['epoch'] + 1
     # create training dataloader
     train_loader = DataLoader(train_dset, batch_size, shuffle=True, num_workers=0, collate_fn=utils.trim_collate, pin_memory=True)
-    eval_loader = DataLoader(eval_dset, 1, shuffle=False, num_workers=0, collate_fn=utils.trim_collate, pin_memory=True)
     # training phase
-    train(args, model, train_loader, eval_loader, args.epochs, args.output, optim, epoch)
+    train(args, model, train_loader, None, args.epochs, args.output, optim, epoch)
