@@ -11,7 +11,7 @@ Please cite these papers in your publications if it helps your research
 
 ```
 @inproceedings{gongchen2020cross,
-  author={Haifan Gong, Guanqi Chen, Sishuo Liu, Yizhou Yu, and Guanbin Li},
+  author={Haifan Gong and Guanqi Chen and Sishuo Liu and Yizhou Yu and Guanbin Li},
   title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
   booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
   year={2021}
