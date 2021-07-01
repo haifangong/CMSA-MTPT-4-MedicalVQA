@@ -47,4 +47,4 @@ MIT License
 
 ### More information
 If you have any problem, no hesitate contact us at haifangong@outlook.com
-HCP Lab Homepage: https://hcp.tioyotech.com/
+HCP Lab Homepage: https://www.sysuhcp.com/
