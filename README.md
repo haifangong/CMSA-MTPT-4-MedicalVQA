@@ -21,6 +21,7 @@ Please cite this paper in your publications if it helps your research
 Overview of the proposed medical VQA model. Our method consists of four components (with different colors in the figure): image feature extractor, question encoder, cross-modal self-attention (CMSA) module, and answer predictor.
 
 ![A novel multi-task pre-training framework](mtpt.png)
+
 Multi-Task Pre-Training: the model is jointly trained with an image understanding task and a questionimage compatibility task. Depending on the dataset-specific image understanding task, the decoder can be selected as a fully convolutional network or a fully connected network.
 
 ### Prerequisites
