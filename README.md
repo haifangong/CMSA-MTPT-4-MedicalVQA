@@ -10,7 +10,7 @@ The main contributer of this code is Guanqi Chen [link](https://github.com/cheng
 Please cite this paper in your publications if it helps your research
 
 ```
-@inproceedings{gongchen2020cross,
+@inproceedings{gongchen2021cross,
   author={Haifan Gong and Guanqi Chen and Sishuo Liu and Yizhou Yu and Guanbin Li},
   title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
   booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
