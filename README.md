@@ -10,11 +10,20 @@ The main contributer of this code is Guanqi Chen [link](https://github.com/cheng
 Please cite this paper in your publications if it helps your research
 
 ```
-@inproceedings{gongchen2021cross,
-  author={Haifan Gong and Guanqi Chen and Sishuo Liu and Yizhou Yu and Guanbin Li},
-  title={Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering},
-  booktitle = {ACM International Conference on Multimedia Retrieval(ICMR)},
-  year={2021}
+@inproceedings{gong2021cross,
+  author    = {Haifan Gong and
+               Guanqi Chen and
+               Sishuo Liu and
+               Yizhou Yu and
+               Guanbin Li},
+  title     = {Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical
+               Visual Question Answering},
+  booktitle = {{ICMR} '21: International Conference on Multimedia Retrieval, Taipei,
+               Taiwan, August 21-24, 2021},
+  pages     = {456--460},
+  publisher = {{ACM}},
+  year      = {2021},
+  doi       = {10.1145/3460426.3463584},
 }
 ```
 ![Overview of cmsa-mtpt framework](overview.png)
