@@ -26,7 +26,7 @@ Please cite this paper in your publications if it helps your research
   doi       = {10.1145/3460426.3463584},
 }
 ```
-## Note: You should replace the original imagenet pretrain encoder with the multi-task pretrain encoder in the drive or trained by yourself !!!
+## Note: You should replace the original imagenet pretrain encoder with the multi-task pretrained encoder in the drive or trained by yourself !!!
 
 ![Overview of cmsa-mtpt framework](overview.png)
 Overview of the proposed medical VQA model. Our method consists of four components (with different colors in the figure): image feature extractor, question encoder, cross-modal self-attention (CMSA) module, and answer predictor.
