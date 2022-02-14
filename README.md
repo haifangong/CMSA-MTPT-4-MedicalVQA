@@ -1,5 +1,5 @@
 # Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering [paper](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent) 
-### [ICMR 2021 Best Poster Paper Award!](icmr2021.org/awards.html)
+### [ICMR 2021 Best Poster Paper Award!](https://icmr2021.org/awards.html)
 
 This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-5-28, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent).
 
