@@ -1,4 +1,4 @@
-# Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering [paper](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent)
+# Cross-Modal Self-Attention with Multi-Task Pre-Training for Medical Visual Question Answering [paper](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent) [ICMR 2021 Best Poster Paper Award!](icmr2021.org/awards.html)
 
 This repository is the official implementation of `CMSA-MTPT` for the visual question answering task in medical domain. Our model achieved **56.1** for open-ended and **77.3** for close-end on [VQA-RAD dataset](https://www.nature.com/articles/sdata2018251#data-citations). Up to 2021-5-28, the proposed models achieves the `SOTA` on the VQA-RAD dataset. For the detail, please refer to [link](https://www.researchgate.net/publication/351229736_Cross-Modal_Self-Attention_with_Multi-Task_Pre-Training_for_Medical_Visual_Question_Answering#fullTextFileContent).
 
@@ -40,9 +40,11 @@ torch                       1.0.1
 torchvision                 0.4.0a0
 numpy                       1.19.1
 
-### Preprocessing
+### Dataset and Pre-trained Models
 
 The processed data should be downloaded via [link](https://pan.baidu.com/s/1MR81OMZLLIFHLyUcgiSbpA) with the extract code: `tkm8`. The downloaded file should be extracted to `data_RAD/` directory.
+The pretrained models is available at [Baidu Drive](https://pan.baidu.com/s/1VQCAVADmrzEeRnW8GzsMfA) with extract code: `163k` Or [Google Drive](https://drive.google.com/drive/folders/1nlBaNwYtBK6Zmvsz7Yk7xzd3E9n-fQSC?usp=sharing)
+The dataset for multi-task pretraining is available at [Baidu Drive](https://pan.baidu.com/s/1HuP7_PHRmkPCUPjQo5CE8Q) with extract code `gow6` Or [Google Drive](https://drive.google.com/file/d/1Y65SeAkc7gKjQfw0uUBisZAkXNQxgyHo/view?usp=sharing)
 
 ### Training and Testing
 Just run the `train.sh` and the `test.sh` for training and evaluation.
@@ -51,8 +53,6 @@ The result json file can be found in the directory `results/`.
 ### Comaprison with the sota
 ![A novel multi-task pre-training framework](comparison_sota.png)
 
-### Pretrained models
-The multi-task pretrained models and the models for evaluation can be downloaded from [link](https://pan.baidu.com/s/1VQCAVADmrzEeRnW8GzsMfA) with extract code: `163k`. 
 
 ### License
 MIT License
