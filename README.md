@@ -43,7 +43,9 @@ numpy                       1.19.1
 ### Dataset and Pre-trained Models
 
 The processed data should be downloaded via [link](https://pan.baidu.com/s/1MR81OMZLLIFHLyUcgiSbpA) with the extract code: `tkm8`. The downloaded file should be extracted to `data_RAD/` directory.
-The pretrained models is available at [Baidu Drive](https://pan.baidu.com/s/1VQCAVADmrzEeRnW8GzsMfA) with extract code: `163k` Or [Google Drive](https://drive.google.com/drive/folders/1nlBaNwYtBK6Zmvsz7Yk7xzd3E9n-fQSC?usp=sharing)
+
+The pretrained models is available at [Baidu Drive](https://pan.baidu.com/s/1VQCAVADmrzEeRnW8GzsMfA) with extract code: `163k` Or [Google Drive](https://drive.google.com/drive/folders/1nlBaNwYtBK6Zmvsz7Yk7xzd3E9n-fQSC?usp=sharing).
+
 The dataset for multi-task pretraining is available at [Baidu Drive](https://pan.baidu.com/s/1HuP7_PHRmkPCUPjQo5CE8Q) with extract code `gow6` Or [Google Drive](https://drive.google.com/file/d/1Y65SeAkc7gKjQfw0uUBisZAkXNQxgyHo/view?usp=sharing)
 
 ### Training and Testing
