@@ -63,5 +63,6 @@ The result json file can be found in the directory `results/`.
 MIT License
 
 ### More information
+The up to date result could refer to https://github.com/haifangong/VQAMix
 If you have any problem, no hesitate contact us at haifangong@outlook.com
 HCP Lab Homepage: https://www.sysuhcp.com/
