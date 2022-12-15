@@ -27,6 +27,17 @@ Please cite this paper in your publications if it helps your research
   doi       = {10.1145/3460426.3463584},
 }
 ```
+
+You may also cite this work if it helps your research
+```
+@article{gong2022vqamix,
+  title={VQAMix: Conditional Triplet Mixup for Medical Visual Question Answering},
+  author={Haifan Gong and Guanqi Chen and Mingzhi Mao and Zhen Li and Guanbin Li},
+  journal={IEEE Trans. on Medical Imaging},
+  year={2022}
+}
+```
+
 ## Note: You should replace the original imagenet pretrained encoder with the multi-task pretrained encoder in the drive or trained by yourself !!!
 
 ![Overview of cmsa-mtpt framework](overview.png)
